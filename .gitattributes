@@ -1,0 +1,6 @@
+# Normalise line endings on the way in.
+#
+# A catalogue takes pull requests from every platform. Without this, a theme
+# authored on Windows arrives with CRLF and every later diff of that file shows
+# as fully rewritten, which buries the two colours that actually changed.
+* text=auto eol=lf
