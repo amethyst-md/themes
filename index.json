@@ -5,15 +5,15 @@
       "id": "vibrant-dark",
       "name": "Vibrant Dark",
       "author": "londarks",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "appearance": "dark",
-      "base": "nebula-glass",
-      "description": "Cinza translúcido com acentos vivos. Paleta portada do Vibrant Dark UI do Inkdrop (MIT, © 2016 Inkdrop).",
+      "base": "obsidian",
+      "description": "Preto translúcido com acentos vivos. Paleta portada do Vibrant Dark UI do Inkdrop (MIT, © 2016 Inkdrop).",
       "colors": {
-        "bg": "#282c30",
-        "sidebar": "#22262a",
-        "accent": "#6987af",
-        "text": "#dddddd"
+        "bg": "#101114",
+        "sidebar": "#000000",
+        "accent": "#54c8ff",
+        "text": "#e8e8e8"
       }
     },
     {

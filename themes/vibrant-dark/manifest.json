@@ -1,8 +1,8 @@
 {
   "name": "Vibrant Dark",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "londarks",
-  "base": "nebula-glass",
+  "base": "obsidian",
   "appearance": "dark",
-  "description": "Cinza translúcido com acentos vivos. Paleta portada do Vibrant Dark UI do Inkdrop (MIT, © 2016 Inkdrop)."
+  "description": "Preto translúcido com acentos vivos. Paleta portada do Vibrant Dark UI do Inkdrop (MIT, © 2016 Inkdrop)."
 }
