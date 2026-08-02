@@ -1,0 +1,85 @@
+/* Vibrant Dark — cinza translúcido com acentos vivos.
+ *
+ * Porte da paleta do "Vibrant Dark UI" do Inkdrop
+ * (https://github.com/inkdropapp/vibrant-dark-ui), MIT, Copyright (c) 2016
+ * Inkdrop. O arquivo original é LESS para Semantic UI; aqui as cores foram
+ * remapeadas para as variáveis do Amethyst.
+ *
+ * O manifesto declara `base: nebula-glass`, e é o que dá o "vibrant" do nome:
+ * o modo vidro do app segue o tema base, então a barra lateral fica de fato
+ * translúcida com o desfoque do sistema por trás. Por isso --bg-sidebar tem
+ * alfa; num tema opaco esse valor seria só um cinza. */
+:root {
+  --bg-sidebar: rgba(34, 38, 42, 0.68);
+  --bg-note-list: #23272b;
+  --bg-editor: #282c30;
+  --bg-hover: rgba(255, 255, 255, 0.06);
+  --bg-selected: rgba(105, 135, 175, 0.24);
+  --bg-input: rgba(20, 23, 26, 0.9);
+  --bg-dropdown: rgba(30, 34, 38, 0.97);
+  --bg-tooltip: rgba(18, 20, 23, 0.97);
+  --bg-modal: rgba(32, 36, 40, 0.97);
+  --bg-modal-overlay: rgba(14, 16, 18, 0.62);
+
+  --text-primary: #dddddd;
+  --text-secondary: #b4b8bc;
+  --text-muted: #80878b;
+  --text-faint: #545b60;
+  --text-inverse: #1c1f22;
+
+  --accent: #6987af;
+  --accent-hover: #85b7d9;
+  --accent-muted: rgba(105, 135, 175, 0.2);
+  --accent-blue: #54c8ff;
+  --accent-blue-hover: #7ad6ff;
+
+  --border: rgba(255, 255, 255, 0.09);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-focus: #85b7d9;
+
+  --scrollbar: rgba(255, 255, 255, 0.14);
+  --scrollbar-hover: rgba(255, 255, 255, 0.24);
+
+  --selection: rgba(84, 200, 255, 0.26);
+  --selection-text: inherit;
+
+  --success: #2ecc40;
+  --warning: #fbbd08;
+  --error: #ff695e;
+  --info: #54c8ff;
+
+  --heading-1: #85b7d9;
+  --heading-2: #54c8ff;
+  --heading-3: #2ecc40;
+  --heading-4: #fbbd08;
+
+  --code-bg: rgba(16, 18, 21, 0.75);
+  --code-text: #dcddde;
+  --link: #54c8ff;
+  --link-hover: #7ad6ff;
+
+  --syntax-keyword: #a291fb;
+  --syntax-string: #2ecc40;
+  --syntax-number: #ff851b;
+  --syntax-comment: #767676;
+  --syntax-function: #54c8ff;
+  --syntax-type: #fbbd08;
+  --syntax-property: #00b5ad;
+  --syntax-operator: #dcddde;
+  --syntax-variable: #dddddd;
+
+  --editor-line-active: rgba(84, 200, 255, 0.06);
+  --editor-cursor: #54c8ff;
+  --editor-matching-bracket: rgba(84, 200, 255, 0.3);
+
+  --sidebar-icon-notebook: #6987af;
+  --sidebar-icon-tag: #a291fb;
+  --sidebar-icon-status: #2ecc40;
+  --sidebar-icon-trash: #ff695e;
+
+  --note-card-border: rgba(255, 255, 255, 0.06);
+  --note-card-hover: rgba(255, 255, 255, 0.05);
+  --note-card-selected: rgba(105, 135, 175, 0.16);
+  --note-excerpt: #80878b;
+  --note-date: #545b60;
+}

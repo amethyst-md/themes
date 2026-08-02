@@ -2,18 +2,18 @@
   "version": 1,
   "themes": [
     {
-      "id": "everforest",
-      "name": "Everforest",
+      "id": "vibrant-dark",
+      "name": "Vibrant Dark",
       "author": "londarks",
       "version": "1.0.0",
       "appearance": "dark",
-      "base": "gruvbox",
-      "description": "Verde-floresta quente, contraste baixo, pensado para sessão longa.",
+      "base": "nebula-glass",
+      "description": "Cinza translúcido com acentos vivos. Paleta portada do Vibrant Dark UI do Inkdrop (MIT, © 2016 Inkdrop).",
       "colors": {
-        "bg": "#323d43",
-        "sidebar": "#272e33",
-        "accent": "#a7c080",
-        "text": "#d3c6aa"
+        "bg": "#282c30",
+        "sidebar": "#22262a",
+        "accent": "#6987af",
+        "text": "#dddddd"
       }
     },
     {
