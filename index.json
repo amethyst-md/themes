@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "nord",
+      "name": "Nord",
+      "author": "Amethyst",
+      "version": "1.0.0",
+      "appearance": "dark",
+      "base": "midnight",
+      "description": "Paleta ártica fria, de baixo contraste.",
+      "colors": {
+        "bg": "#373f4f",
+        "sidebar": "#2e3440",
+        "accent": "#88c0d0",
+        "text": "#eceff4"
+      }
+    }
+  ]
+}

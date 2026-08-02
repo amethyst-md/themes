@@ -1,0 +1,21 @@
+name: Validate themes
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No dependencies on purpose: the check should not be able to break
+      # because something in a lockfile moved.
+      - run: node scripts/validate.mjs

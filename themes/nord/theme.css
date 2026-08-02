@@ -1,0 +1,76 @@
+/* Nord — paleta ártica, fria e de baixo contraste.
+ * Tema de exemplo, para provar o mecanismo de temas da comunidade. */
+:root {
+  --bg-sidebar: #2e3440;
+  --bg-note-list: #323947;
+  --bg-editor: #373f4f;
+  --bg-hover: #434c5e;
+  --bg-selected: #4c566a;
+  --bg-input: #2e3440;
+  --bg-dropdown: #3b4252;
+  --bg-tooltip: #2e3440;
+  --bg-modal: #3b4252;
+  --bg-modal-overlay: rgba(46, 52, 64, 0.7);
+
+  --text-primary: #eceff4;
+  --text-secondary: #d8dee9;
+  --text-muted: #8b98ad;
+  --text-faint: #5d6b82;
+  --text-inverse: #2e3440;
+
+  --accent: #88c0d0;
+  --accent-hover: #8fbcbb;
+  --accent-muted: rgba(136, 192, 208, 0.16);
+  --accent-blue: #81a1c1;
+  --accent-blue-hover: #5e81ac;
+
+  --border: #434c5e;
+  --border-subtle: #3b4252;
+  --border-focus: #88c0d0;
+
+  --scrollbar: #4c566a;
+  --scrollbar-hover: #5d6b82;
+
+  --selection: rgba(136, 192, 208, 0.26);
+  --selection-text: inherit;
+
+  --success: #a3be8c;
+  --warning: #ebcb8b;
+  --error: #bf616a;
+  --info: #81a1c1;
+
+  --heading-1: #88c0d0;
+  --heading-2: #81a1c1;
+  --heading-3: #a3be8c;
+  --heading-4: #ebcb8b;
+
+  --code-bg: #2e3440;
+  --code-text: #d8dee9;
+  --link: #88c0d0;
+  --link-hover: #8fbcbb;
+
+  --syntax-keyword: #81a1c1;
+  --syntax-string: #a3be8c;
+  --syntax-number: #b48ead;
+  --syntax-comment: #66738a;
+  --syntax-function: #88c0d0;
+  --syntax-type: #8fbcbb;
+  --syntax-property: #d8dee9;
+  --syntax-operator: #81a1c1;
+  --syntax-variable: #eceff4;
+
+  --editor-line-active: rgba(136, 192, 208, 0.07);
+  --editor-cursor: #88c0d0;
+  --editor-matching-bracket: rgba(136, 192, 208, 0.3);
+
+  --sidebar-icon-notebook: #88c0d0;
+  --sidebar-icon-tag: #b48ead;
+  --sidebar-icon-status: #a3be8c;
+  --sidebar-icon-trash: #bf616a;
+
+  --note-card-border: #3b4252;
+  --note-card-hover: #434c5e;
+  --note-card-selected: rgba(136, 192, 208, 0.14);
+  --note-excerpt: #8b98ad;
+  --note-date: #5d6b82;
+}

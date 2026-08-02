@@ -1,0 +1,8 @@
+{
+  "name": "Nord",
+  "version": "1.0.0",
+  "author": "exemplo",
+  "base": "midnight",
+  "appearance": "dark",
+  "description": "Paleta ártica fria, de baixo contraste."
+}
