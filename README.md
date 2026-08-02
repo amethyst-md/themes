@@ -1,7 +1,7 @@
 # Temas do Amethyst
 
 Catálogo de temas da comunidade. O aplicativo lê o `index.json` deste
-repositório e baixa os arquivos direto daqui — nada passa por servidor nosso.
+repositório e baixa os arquivos direto daqui.
 
 ## Instalar um tema
 
