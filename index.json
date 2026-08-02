@@ -2,6 +2,21 @@
   "version": 1,
   "themes": [
     {
+      "id": "everforest",
+      "name": "Everforest",
+      "author": "londarks",
+      "version": "1.0.0",
+      "appearance": "dark",
+      "base": "gruvbox",
+      "description": "Verde-floresta quente, contraste baixo, pensado para sessão longa.",
+      "colors": {
+        "bg": "#323d43",
+        "sidebar": "#272e33",
+        "accent": "#a7c080",
+        "text": "#d3c6aa"
+      }
+    },
+    {
       "id": "nord",
       "name": "Nord",
       "author": "Amethyst",
