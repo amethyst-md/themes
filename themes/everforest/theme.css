@@ -1,0 +1,78 @@
+/* Everforest — verde-floresta quente, contraste baixo.
+ *
+ * A ideia da paleta original é cansar menos a vista em sessão longa: fundos
+ * dessaturados e acentos suaves, em vez de cores puras sobre preto. */
+:root {
+  --bg-sidebar: #272e33;
+  --bg-note-list: #2d353b;
+  --bg-editor: #323d43;
+  --bg-hover: #3d484d;
+  --bg-selected: #475258;
+  --bg-input: #272e33;
+  --bg-dropdown: #2d353b;
+  --bg-tooltip: #232a2e;
+  --bg-modal: #2d353b;
+  --bg-modal-overlay: rgba(35, 42, 46, 0.72);
+
+  --text-primary: #d3c6aa;
+  --text-secondary: #9da9a0;
+  --text-muted: #859289;
+  --text-faint: #5c6a72;
+  --text-inverse: #2d353b;
+
+  --accent: #a7c080;
+  --accent-hover: #bdd49b;
+  --accent-muted: rgba(167, 192, 128, 0.16);
+  --accent-blue: #7fbbb3;
+  --accent-blue-hover: #9ccfc7;
+
+  --border: #3d484d;
+  --border-subtle: #343f44;
+  --border-focus: #a7c080;
+
+  --scrollbar: #4f585e;
+  --scrollbar-hover: #5c6a72;
+
+  --selection: rgba(167, 192, 128, 0.24);
+  --selection-text: inherit;
+
+  --success: #a7c080;
+  --warning: #dbbc7f;
+  --error: #e67e80;
+  --info: #7fbbb3;
+
+  --heading-1: #a7c080;
+  --heading-2: #7fbbb3;
+  --heading-3: #83c092;
+  --heading-4: #dbbc7f;
+
+  --code-bg: #272e33;
+  --code-text: #d3c6aa;
+  --link: #7fbbb3;
+  --link-hover: #9ccfc7;
+
+  --syntax-keyword: #e67e80;
+  --syntax-string: #a7c080;
+  --syntax-number: #d699b6;
+  --syntax-comment: #7a8478;
+  --syntax-function: #83c092;
+  --syntax-type: #dbbc7f;
+  --syntax-property: #7fbbb3;
+  --syntax-operator: #e69875;
+  --syntax-variable: #d3c6aa;
+
+  --editor-line-active: rgba(167, 192, 128, 0.06);
+  --editor-cursor: #a7c080;
+  --editor-matching-bracket: rgba(167, 192, 128, 0.3);
+
+  --sidebar-icon-notebook: #a7c080;
+  --sidebar-icon-tag: #d699b6;
+  --sidebar-icon-status: #83c092;
+  --sidebar-icon-trash: #e67e80;
+
+  --note-card-border: #343f44;
+  --note-card-hover: #3d484d;
+  --note-card-selected: rgba(167, 192, 128, 0.13);
+  --note-excerpt: #859289;
+  --note-date: #5c6a72;
+}
