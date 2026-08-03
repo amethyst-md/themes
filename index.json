@@ -2,6 +2,21 @@
   "version": 1,
   "themes": [
     {
+      "id": "void",
+      "name": "Void",
+      "author": "londarks",
+      "version": "1.0.0",
+      "appearance": "dark",
+      "base": "cipher",
+      "description": "Preto puro em todas as superfícies. A cor mora inteira no texto.",
+      "colors": {
+        "bg": "#000000",
+        "sidebar": "#000000",
+        "accent": "#38bdf8",
+        "text": "#f4f4f5"
+      }
+    },
+    {
       "id": "everforest",
       "name": "Everforest",
       "author": "londarks",

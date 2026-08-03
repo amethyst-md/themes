@@ -1,0 +1,102 @@
+/* Void — preto puro, e a cor toda no texto.
+ *
+ * Todos os fundos são #000000 de verdade, não cinza escuro. Isso tira o único
+ * recurso que um tema normalmente usa para separar painel de painel, então a
+ * separação vem de borda fina e do brilho da letra — e não de tons de cinza
+ * empilhados.
+ *
+ * Duas consequências disso, que explicam escolhas estranhas mais abaixo:
+ *
+ * 1. Realce e seleção precisam ser branco ou cor com alfa. Um cinza sólido
+ *    sobre preto puro vira mancha; alfa vira luz.
+ * 2. Cada papel do texto ganha uma cor própria e saturada. Sobre preto, cor
+ *    saturada é legível de um jeito que ela não é sobre cinza — é o que
+ *    permite distinguir as coisas sem nenhuma diferença de fundo. */
+:root {
+  --bg-sidebar: #000000;
+  --bg-note-list: #000000;
+  --bg-editor: #000000;
+  --bg-input: #000000;
+  --bg-dropdown: #000000;
+  --bg-tooltip: #000000;
+  --bg-modal: #000000;
+  --bg-modal-overlay: rgba(0, 0, 0, 0.82);
+
+  /* Luz, não cinza: é o que aparece sobre preto puro. */
+  --bg-hover: rgba(255, 255, 255, 0.07);
+  --bg-selected: rgba(56, 189, 248, 0.16);
+
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --text-faint: #3f3f46;
+  --text-inverse: #000000;
+
+  --accent: #38bdf8;
+  --accent-hover: #7dd3fc;
+  --accent-muted: rgba(56, 189, 248, 0.16);
+  --accent-blue: #818cf8;
+  --accent-blue-hover: #a5b4fc;
+
+  /* A única separação entre painéis, já que os fundos são idênticos. */
+  --border: rgba(255, 255, 255, 0.12);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-focus: #38bdf8;
+
+  --scrollbar: rgba(255, 255, 255, 0.16);
+  --scrollbar-hover: rgba(255, 255, 255, 0.3);
+
+  --selection: rgba(56, 189, 248, 0.3);
+  --selection-text: inherit;
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --error: #f87171;
+  --info: #38bdf8;
+
+  /* Cada nível de título numa cor, para a hierarquia aparecer sem depender de
+     tamanho de fonte. */
+  --heading-1: #38bdf8;
+  --heading-2: #f472b6;
+  --heading-3: #a3e635;
+  --heading-4: #fbbf24;
+
+  /* Código sobre preto puro fica sem moldura, então o bloco recebe um véu
+     branco em vez de um fundo próprio. */
+  --code-bg: rgba(255, 255, 255, 0.05);
+  --code-text: #e4e4e7;
+  --link: #38bdf8;
+  --link-hover: #7dd3fc;
+
+  --syntax-keyword: #c084fc;
+  --syntax-string: #4ade80;
+  --syntax-number: #fb923c;
+  --syntax-comment: #52525b;
+  --syntax-function: #38bdf8;
+  --syntax-type: #fbbf24;
+  --syntax-property: #2dd4bf;
+  --syntax-operator: #f472b6;
+  --syntax-variable: #f4f4f5;
+
+  --editor-line-active: rgba(255, 255, 255, 0.04);
+  --editor-cursor: #38bdf8;
+  --editor-matching-bracket: rgba(56, 189, 248, 0.35);
+
+  --sidebar-icon-notebook: #38bdf8;
+  --sidebar-icon-tag: #c084fc;
+  --sidebar-icon-status: #4ade80;
+  --sidebar-icon-trash: #f87171;
+
+  --alert-note: #38bdf8;
+  --alert-tip: #4ade80;
+  --alert-important: #c084fc;
+  --alert-warning: #fbbf24;
+  --alert-caution: #f87171;
+  --task-done: #4ade80;
+
+  --note-card-border: rgba(255, 255, 255, 0.07);
+  --note-card-hover: rgba(255, 255, 255, 0.05);
+  --note-card-selected: rgba(56, 189, 248, 0.14);
+  --note-excerpt: #71717a;
+  --note-date: #3f3f46;
+}
