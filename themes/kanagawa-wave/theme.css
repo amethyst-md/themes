@@ -1,0 +1,99 @@
+/* Kanagawa Wave — tinta sumi, azul de onda e os acentos de outono.
+ *
+ * Paleta do kanagawa.nvim (https://github.com/rebelot/kanagawa.nvim), MIT,
+ * Copyright (c) 2021 Tommaso Laurenzi, inspirada nas cores da Grande Onda de
+ * Kanagawa, de Hokusai. O original é Lua para o Neovim; o mapeamento para as
+ * variáveis do Amethyst é trabalho próprio.
+ *
+ * A ideia da paleta é fundo de tinta preta levemente arroxeada, com os acentos
+ * puxando para o desbotado — nada de cor pura. Por isso o texto principal é
+ * fujiWhite, um branco amarelado, e não branco: sobre sumi ele parece papel em
+ * vez de tela.
+ *
+ * As cores são sólidas de propósito. A translucidez do Amethyst é um ajuste do
+ * aplicativo (Configurações → Aparência → Vidro), e o app mistura o alfa por
+ * cima destas cores. */
+:root {
+  /* sumiInk, do mais escuro ao mais claro, seguindo a profundidade do painel */
+  --bg-sidebar: #16161d;
+  --bg-note-list: #181820;
+  --bg-editor: #1f1f28;
+  --bg-hover: #2a2a37;
+  --bg-selected: #223249;
+  --bg-input: #16161d;
+  --bg-dropdown: #1a1a22;
+  --bg-tooltip: #16161d;
+  --bg-modal: #1a1a22;
+  --bg-modal-overlay: rgba(22, 22, 29, 0.76);
+
+  --text-primary: #dcd7ba;
+  --text-secondary: #c8c093;
+  --text-muted: #727169;
+  --text-faint: #54546d;
+  --text-inverse: #16161d;
+
+  --accent: #7e9cd8;
+  --accent-hover: #9cabca;
+  --accent-muted: rgba(126, 156, 216, 0.18);
+  --accent-blue: #7fb4ca;
+  --accent-blue-hover: #a3d4d5;
+
+  --border: #2a2a37;
+  --border-subtle: #1f1f28;
+  --border-focus: #7e9cd8;
+
+  --scrollbar: #363646;
+  --scrollbar-hover: #54546d;
+
+  --selection: rgba(45, 79, 103, 0.55);
+  --selection-text: inherit;
+
+  --success: #98bb6c;
+  --warning: #ff9e3b;
+  --error: #e82424;
+  --info: #7fb4ca;
+
+  --heading-1: #7e9cd8;
+  --heading-2: #7aa89f;
+  --heading-3: #98bb6c;
+  --heading-4: #e6c384;
+
+  --code-bg: #16161d;
+  --code-text: #dcd7ba;
+  --link: #7fb4ca;
+  --link-hover: #a3d4d5;
+
+  --syntax-keyword: #957fb8;
+  --syntax-string: #98bb6c;
+  --syntax-number: #d27e99;
+  --syntax-comment: #727169;
+  --syntax-function: #7e9cd8;
+  --syntax-type: #7aa89f;
+  --syntax-property: #e6c384;
+  --syntax-operator: #c0a36e;
+  --syntax-variable: #dcd7ba;
+
+  --editor-line-active: rgba(42, 42, 55, 0.5);
+  --editor-cursor: #c8c093;
+  --editor-matching-bracket: rgba(126, 156, 216, 0.35);
+
+  --sidebar-icon-notebook: #7e9cd8;
+  --sidebar-icon-tag: #957fb8;
+  --sidebar-icon-status: #98bb6c;
+  --sidebar-icon-trash: #e46876;
+
+  /* Os quatro fundos de estação do original servem bem aqui: são os tons que
+     ele usa para diff e diagnóstico, que é o mesmo papel de um alerta. */
+  --alert-note: #7e9cd8;
+  --alert-tip: #76946a;
+  --alert-important: #957fb8;
+  --alert-warning: #dca561;
+  --alert-caution: #c34043;
+  --task-done: #98bb6c;
+
+  --note-card-border: #1f1f28;
+  --note-card-hover: #2a2a37;
+  --note-card-selected: rgba(34, 50, 73, 0.7);
+  --note-excerpt: #727169;
+  --note-date: #54546d;
+}

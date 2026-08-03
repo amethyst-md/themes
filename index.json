@@ -2,6 +2,21 @@
   "version": 1,
   "themes": [
     {
+      "id": "kanagawa-wave",
+      "name": "Kanagawa Wave",
+      "author": "londarks",
+      "version": "1.0.0",
+      "appearance": "dark",
+      "base": "midnight",
+      "description": "Tinta sumi e azul de onda. Paleta do kanagawa.nvim (MIT, © 2021 Tommaso Laurenzi).",
+      "colors": {
+        "bg": "#1f1f28",
+        "sidebar": "#16161d",
+        "accent": "#7e9cd8",
+        "text": "#dcd7ba"
+      }
+    },
+    {
       "id": "void",
       "name": "Void",
       "author": "londarks",

@@ -1,0 +1,8 @@
+{
+  "name": "Kanagawa Wave",
+  "version": "1.0.0",
+  "author": "londarks",
+  "base": "midnight",
+  "appearance": "dark",
+  "description": "Tinta sumi e azul de onda. Paleta do kanagawa.nvim (MIT, © 2021 Tommaso Laurenzi)."
+}
